@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  fesbwebservice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5000:80'
