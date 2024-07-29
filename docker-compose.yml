@@ -1,6 +1,7 @@
 version: '3.4'
 services:
   fesbwebservice:
+    image: fesb-web-image:latest
     build:
       context: .
       dockerfile: Dockerfile
