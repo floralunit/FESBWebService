@@ -3,9 +3,9 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>783f702f-6733-45c5-a0f9-bb105cea8de7</ProjectGuid>
+    <ProjectGuid>47a391e6-f8ea-42ba-867c-85f87382604b</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
+    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/index.html</DockerServiceUrl>
     <DockerServiceName>fesbwebservice</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
